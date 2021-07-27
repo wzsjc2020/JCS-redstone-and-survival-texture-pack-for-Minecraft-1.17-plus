@@ -1,0 +1,59 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0":"minecraft:block/torch",
+		"1": "iblock/red_dot",
+		"particle": "minecraft:block/torch"
+	},
+	"elements": [
+		{
+			"name": "main",
+			"from": [7, 0, 7],
+			"to": [9, 10, 9],
+			"faces": {
+				"north": {"uv": [7, 6, 9, 16], "texture": "#0"},
+				"east": {"uv": [7, 6, 9, 16], "texture": "#0"},
+				"south": {"uv": [7, 6, 9, 16], "texture": "#0"},
+				"west": {"uv": [7, 6, 9, 16], "texture": "#0"},
+				"up": {"uv": [7, 6, 9, 8], "texture": "#0"},
+				"down": {"uv": [7, 14, 9, 16], "texture": "#0"}
+			}
+		},
+		{
+			"name": "south",
+			"from": [0, 0.06, 0],
+			"to": [16, 0.06, 16],
+			"rotation": {"angle": 45, "axis": "y", "origin": [123.88225, 0, 56]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "east",
+			"from": [0, 0.06, 0],
+			"to": [16, 0.06, 16],
+			"rotation": {"angle": 45, "axis": "y", "origin": [56, 0, -107.88225]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "north",
+			"from": [0, 0.06, 0],
+			"to": [16, 0.06, 16],
+			"rotation": {"angle": 45, "axis": "y", "origin": [-107.88225, 0, -40]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#1"}
+			}
+		},
+		{
+			"name": "west",
+			"from": [0, 0.06, 0],
+			"to": [16, 0.06, 16],
+			"rotation": {"angle": 45, "axis": "y", "origin": [-40, 0, 123.88225]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#1"}
+			}
+		}
+	]
+}

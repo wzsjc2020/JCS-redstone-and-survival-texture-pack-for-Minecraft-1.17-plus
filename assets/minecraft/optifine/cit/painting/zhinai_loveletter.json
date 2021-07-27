@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "./back",
+		"1": "./zhinai_loveletter",
+		"particle": "./back"
+	},
+	"elements": [
+		{
+			"name": "main",
+			"from": [0, 0, 8],
+			"to": [16, 16, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 1.5, 8], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 1.5, 8], "texture": "#0"},
+				"up": {"uv": [0, 0, 8, 1.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 8, 1.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"ground": {
+			"scale": [0.5, 0.5, 1]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [-16, 16, 1.95],
+			"scale": [4, 4, 2]
+		}
+	}
+}

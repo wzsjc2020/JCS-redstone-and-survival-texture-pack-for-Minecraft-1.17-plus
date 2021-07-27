@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "minecraft:block/polished_blackstone",
+        	"particle": "minecraft:block/polished_blackstone"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [4, 0, 6],
+			"to": [12, 1, 10],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 1], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 1], "texture": "#1"},
+				"south": {"uv": [0, 0, 8, 1], "texture": "#1"},
+				"west": {"uv": [0, 0, 5, 1], "texture": "#1"},
+				"up": {"uv": [0, 0, 8, 4], "texture": "#1"},
+				"down": {"uv": [0, 0, 8, 4], "texture": "#1"}
+			}
+		},
+		{
+			"name": "top",
+			"from": [5, 1, 7],
+			"to": [11, 16, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 6, 15], "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 15], "texture": "#1"},
+				"south": {"uv": [0, 0, 6, 15], "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 15], "texture": "#1"},
+				"up": {"uv": [0, 0, 6, 2], "texture": "#1"},
+				"down": {"uv": [0, 0, 6, 2], "texture": "#1"}
+			}
+		}
+	]
+}
